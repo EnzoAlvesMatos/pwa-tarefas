@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
-      .register("/to-do-pwa/sw.js")
+      .register("/to-do-pwa-main/sw.js")
       .then((registration) => {
         console.log("Service Worker registrado com sucesso:", registration);
       })

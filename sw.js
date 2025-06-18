@@ -1,11 +1,11 @@
 const CACHE_NAME = "to-do-v1";
 const URLS_TO_CACHE = [
-  "/to-do-pwa/",
-  "/to-do-pwa/index.html",
-  "/to-do-pwa/style.css",
-  "/to-do-pwa/script.js",
-  "/to-do-pwa/icons/icon-192.png",
-  "/to-do-pwa/icons/icon-512.png",
+  "/to-do-pwa-main/",
+  "/to-do-pwa-main/index.html",
+  "/to-do-pwa-main/style.css",
+  "/to-do-pwa-main/script.js",
+  "/to-do-pwa-main/icons/icon-192.png",
+  "/to-do-pwa-main/icons/icon-512.png",
 ];
 
 self.addEventListener("install", (event) => {
