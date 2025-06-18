@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="theme-color" content="#4CAF50" />
+    <link rel="manifest" href="to-do-pwa/manifest.json" />
+
+    <title>PWA To-Do List</title>
+    <link rel="stylesheet" href="/to-do-pwa/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>TODO ETEC</h1>
+        <nav>
+          <a href="/to-do-pwa/index.html">Início</a>
+          <a href="/to-do-pwa/about.html">Sobre</a>
+        </nav>
+      </header>
+      <form id="task-form">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Adicionar nova tarefa..."
+          autocomplete="off"
+        />
+        <button type="submit">Adicionar</button>
+      </form>
+      <main>
+        <ul id="task-list"></ul>
+      </main>
+    </div>
+
+    <script src="/to-do-pwa/script.js"></script>
+  </body>
+</html>
